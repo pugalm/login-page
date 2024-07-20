@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(laptop-murjp1nk4lp1idlt.jpg);
+    /* background-image: url(/../../images/laptop-murjp1nk4lp1idlt.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1400px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: blueviolet;
+    font-size: 32px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+}
+
+.menu {
+    position: absolute;
+    right: 290px;
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+
+ul {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 27px;
+}
+
+ul li .mail {
+    margin-left: 40px;
+    color: rgb(121, 120, 120);
+}
+
+ul .email {
+    width: 120px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(121, 120, 120);
+    font-weight: 500;
+    transition: .5s ease-in-out;
+}
+
+ul li a:hover {
+    color: rgb(235, 233, 233);
+}
+
+
+
+.sign {
+    position: absolute;
+    right: 20px;
+    width: 100px;
+    float: left;
+    margin-left: 170px;
+}
+
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(136, 136, 136);
+    margin-top: 14px;
+    outline: none;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: rgb(235, 233, 233);
+    border: none;
+    box-shadow: 0px 2px 6px 0px rgba(255, 254, 254, 0.305);
+}
+
+.content {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 7%;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.from {
+    width: 340px;
+    height: 575px;
+    background: linear-gradient(to top, rgba(36, 36, 36, 0.458)50%, rgba(36, 36, 36, 0.458)50%);
+    position: absolute;
+    top: -80px;
+    left: 930px;
+    padding: 25px;
+}
+
+.from h2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-size: 35px;
+}
+
+.from h3 {
+    color: white;
+    text-align: center;
+    margin-left: -28px;
+    font-size: 25px;
+}
+
+.from p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.from input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.from input::placeholder {
+    color: rgb(177, 176, 176);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.from .next {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    outline: none;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.from .next a {
+    color: orangered;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.from .account {
+    width: 100%;
+    height: 40px;
+    margin-top: 90px;
+    outline: none;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    background: none;
+}
+
+.from .account a {
+    color: orangered;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.from .par {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    top: 45px;
+}
+
+.from .google {
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    outline: none;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.20)none;
+}
+
+.from .google a {
+    color: orangered;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
